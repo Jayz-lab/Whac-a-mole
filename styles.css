@@ -1,6 +1,8 @@
 .grid {
-    width: 600px;
-    height: 600px;
+    width: 606px;
+    height: 606px;
+    display: flex;/*makes .square fit into the grid*/
+    flex-wrap: wrap;/*wraps the stake around and display squares*/
 }
 
 .square {
