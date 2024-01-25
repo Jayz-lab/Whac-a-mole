@@ -1,7 +1,7 @@
 //selects aand extract all DOM element that we will work with
-const squares = document.querySelector('.square')
+const squares = document.querySelectorAll('.square')
 const mole = document.querySelector('.mole')
-const time = document.querySelector('#time-remaining')
+const time = document.querySelector('#time-remaining')//# for an element with ID
 const score = document.querySelector('#score')
 
 let result = 0;
